@@ -3,4 +3,4 @@ Spring 2025 Centria University of Applied Sciences "IT00AK39-3001 Cybersecurity 
 
 | Date  | Used hours | Subject(s) |  output |
 | :---         |     :---:      |     :---:      |     :---:      |
-| 17.1.2025 | 1.5 | First class of course  | Lecture recording  |
+| 17.1.2025 | 1.5 | First class of course  | Preparation to complete course |
