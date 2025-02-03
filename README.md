@@ -13,4 +13,6 @@ Spring 2025 Centria University of Applied Sciences "IT00AK39-3001 Cybersecurity 
 | 26.1.2025 | 1 | Cisco Introduction to Cybersecurity  | Module 5 Complete, Quiz done, Final Exam of the online course completed|
 | 29.1.2025 | 2 | PortSwigger Online Material  | Reading forward in SQL Injection and Authentication topics, completing "SQL injection vulnerability allowing login bypass" and "Username enumeration via different responses" labs|
 | 31.1.2025 | 1.5 | PortSwigger Online Material  | Reading the material in the Authentication topic, completing the "Password reser broken logic"-lab |
+| 3.2.2025 | 1.5 | PortSwigger Online Material  | Taking some notes and reading through the Access control topic, finishing the rest of the required labs for the return submission on ItsLearning. ("Unprotected admin functionality" and "User role can be modified in user profile" |
+
 
