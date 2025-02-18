@@ -14,5 +14,5 @@ Spring 2025 Centria University of Applied Sciences "IT00AK39-3001 Cybersecurity 
 | 29.1.2025 | 2 | PortSwigger Online Material  | Reading forward in SQL Injection and Authentication topics, completing "SQL injection vulnerability allowing login bypass" and "Username enumeration via different responses" labs|
 | 31.1.2025 | 1.5 | PortSwigger Online Material  | Reading the material in the Authentication topic, completing the "Password reser broken logic"-lab |
 | 3.2.2025 | 1.5 | PortSwigger Online Material  | Taking some notes and reading through the Access control topic, finishing the rest of the required labs for the return submission on ItsLearning. ("Unprotected admin functionality" and "User role can be modified in user profile" |
-
-
+| 17.2.2025 | 0.5 | Booking System Project Phase 1 Part 1  | Preparing the material and environment needed for the assignment |
+| 18.2.2025 | 4 | Booking System Project Phase 1 Part 1 | Completing the assignment, pentesting and logging errors, studying the environment and application for vulnerabilities, reporting findings to development team |
