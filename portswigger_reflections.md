@@ -16,6 +16,10 @@ This file is mainly meant for the purpose of logging my own thoughts and reflect
   - Unlike most of the other labs, this one was "Practicioner" level, so I was expecting a severely noticeable jump in difficulty, but it seems to not be that much more difficult than the "Apprentice" labs. At least at this phase. Although, the most annoying part was having to sit there for like 5 minutes while my Burp Suite was installing the obfuscating extension into itself so I could pass the lab.  
   - Funny enough the hardest part was finding the stock check feature because I didnt think to scroll down the products page originally. After that it wasn't so difficult and I was able to pass it with minimal looking at the hints.
 
+4. SQL injection attack, querying the database type and version on Oracle
+  - Modifying the requests themselves seems to be at least a little annoying to me still. I couldn't quite understand why my inputted '+UNION+SELECT+' command wasn't working when I tried it, but the one from the provided solution later worked even though it seemed to be completely the same string. Regardless, I should read up on the structures of GET and POST rqeusts a little before the next lab because it's becoming an issue.
+  - The most difficult part was trying to format the SQL query to fit the GET request's "category" parameter. It was annoying trying to put it together until I found a cheatsheet for it on the internet and with a little help from the community solutions. 
+
 ## Topic: Authentication
 1. Username enumeration via different responses →
   - Brute-forcing is a tedious process, thought it has the possibility of getting results efficiently. Keeping the “wrong username/password” responses the same was highlighted well, since with just that error and a sample data you could easily guess a username, and the objective just became guessing the password, which is a lot easier than keeping track of two running brute-forces at once.
