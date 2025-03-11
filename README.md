@@ -1,5 +1,6 @@
 # cybersec_courseLogbook
 Spring 2025 Centria University of Applied Sciences "IT00AK39-3001 Cybersecurity and data privacy - Daytime"-course's "Link to Git + Logbook"-assignment
+
 Note: PortSwigger labs reflections are updated into " portswigger_reflections.md "-file (in this GitHub repository)
 
 | Date  | Used hours | Subject(s) |  output |
