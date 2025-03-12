@@ -33,6 +33,11 @@ This file is mainly meant for the purpose of logging my own thoughts and reflect
 2. Password reset broken logic →
   - This was probably the simplest PortSwigger lab I completed with the Burp environment. Using plaintext addresses with flawed logic is obviously very dangerous, so it wasn’t a particularly challenging task to complete, anyone could do it even without any practice. The most challenging part was that I accidentally selected the wrong request at first and looked at it for a couple of minutes before realizing.  
 
+3. 2FA simple bypass →
+  - The flaws in the beginner level authentication labs are always very simple, and very easy to fix in any system. It's important to keep in mind to properly implement the 2FA if you are going to add it to your application, the entire point of it is to block the login unless the authentication code is given, so the user should never be switched to the "logged in" state before this code is given. Implementing some additional checks is a crucial step to protecting user accounts.
+  - The lab was not difficult enough to constitute anything as being difficult. It was simply changing the address during login, which let me into the victim's account.
+
+
 ## Topic: Access Control
 1. Unprotected admin functionality →
   - Solving this lab was probably the easiest one I’ve had to do so far, because the entire task was done through just managing the URL. Obviously there needs to be some level of protection so that you cannot just simply go to a page, add /administrator-panel to the end of the URL, and then have access to delete accounts. That seems like common sense.
