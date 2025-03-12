@@ -18,8 +18,13 @@ This file is mainly meant for the purpose of logging my own thoughts and reflect
 
 4. SQL injection attack, querying the database type and version on Oracle →
   - Modifying the requests themselves seems to be at least a little annoying to me still. I couldn't quite understand why my inputted '+UNION+SELECT+' command wasn't working when I tried it, but the one from the provided solution later worked even though it seemed to be completely the same string. Regardless, I should read up on the structures of GET and POST rqeusts a little before the next lab because it's becoming an issue.
-  - The most difficult part was trying to format the SQL query to fit the GET request's "category" parameter. It was annoying trying to put it together until I found a cheatsheet for it on the internet and with a little help from the community solutions. 
+  - The most difficult part was trying to format the SQL query to fit the GET request's "category" parameter. It was annoying trying to put it together until I found a cheatsheet for it on the internet and with a little help from the community solutions.
 
+5. Blind SQL injection with conditional responses →
+  - I found this lab to be particularly interesting. Realistically, a lot of sites would have at least some form of protection agains plain SQL injection, but I can guarantee at least a solid couple would forget to take into account the different objects and specific replies when the user inputs something. In this case the website would leave a "Welcome back" message on the site whenever the user logged in, which we were able to exploit in a blind SQL injection to confirm or deny statements. This made it simple to slowly gather the password of the administrator user through Burp Intruder by slowly iterating over each length to get the length of the administrator password (20 letters), and making advantage of the simple list attack, getting the password of the administrator by slowly iterating over each position in the string and checking if the website has the "Welcome back" message.
+  - The most difficult part of this was still formatting the SQL correctly. I missed a single quotation mark and had to spend a solid 20 minutes trying to troubleshoot on where I went wrong before I noticed it. I should read up on the SQL documentation and syntax a bit more.
+
+    
 ## Topic: Authentication
 1. Username enumeration via different responses →
   - Brute-forcing is a tedious process, thought it has the possibility of getting results efficiently. Keeping the “wrong username/password” responses the same was highlighted well, since with just that error and a sample data you could easily guess a username, and the objective just became guessing the password, which is a lot easier than keeping track of two running brute-forces at once.
