@@ -22,4 +22,5 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 11.3.2025 | 2 | PortSwigger SQL Injection Labs | Reading the SQL Injection topic material on PortSwigger and completing the "SQL injection with filter bypass via XML encoding" and "SQL injection attack, querying the database type and version on Oracle" labs, and writing short reports on them |
 | 12.3.2025 | 1.5 | PortSwigger SQL Injection & Authentication Labs | Reading up on the SQL Injection and Authentication materials, and completing the "Blind SQL injection with conditional responses" and "2FA simple bypass" labs. Also updated portswigger_reflections.md |
 | 15.3.2025 | 3.5 | Booking System Project Phase 2 Part 1 | Penetration testing, testing report, trying to figure out hashcat and getting the first 4 passwords, trying to figure out the last 6 and looking at instructional videos on Panopto |
+| 16.3.2025 | 2 | Booking System Project Phase 2 Part 1 | Bruteforcing the last 6 passwords and updating the testing report, assignment finished |
 
