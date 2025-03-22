@@ -24,5 +24,6 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 15.3.2025 | 3.5 | Booking System Project Phase 2 Part 1 | Penetration testing, testing report, trying to figure out hashcat and getting the first 4 passwords, trying to figure out the last 6 and looking at instructional videos on Panopto |
 | 16.3.2025 | 2 | Booking System Project Phase 2 Part 1 | Bruteforcing the last 6 passwords and updating the testing report, assignment finished |
 | 20.3.2025 | 1 | Booking System Phase 2 Part 2 | Getting started, testing out dictionary attacks with Burp Suite and configuring the sample txt file |
-| 22.3.2025 | 3 | Booking System Phase 2 Part 2 | Running dictionary attacks with Burp Suite and Hydra |
+| 21.3.2025 | 3 | Booking System Phase 2 Part 2 | Running dictionary attacks with Burp Suite and Hydra |
+| 22.3.2025 | 2 | Booking System Phase 2 Part 2 | Running non-dictionary (Bruteforce) attack with Hydra, testing out bruteforcing with Burp, writing and finishing the assignment |
 
