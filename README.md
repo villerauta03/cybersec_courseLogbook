@@ -26,4 +26,6 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 20.3.2025 | 1 | Booking System Phase 2 Part 2 | Getting started, testing out dictionary attacks with Burp Suite and configuring the sample txt file |
 | 21.3.2025 | 3 | Booking System Phase 2 Part 2 | Running dictionary attacks with Burp Suite and Hydra |
 | 22.3.2025 | 2 | Booking System Phase 2 Part 2 | Running non-dictionary (Bruteforce) attack with Hydra, testing out bruteforcing with Burp, writing and finishing the assignment |
+| 30.3.2025 | 3 | Booking System Phase 3 | Running authorization tests with zaproxy and wfuzz, manual browser exploration of the application to identify authorization weakpoints, completing and documenting the assignment completion into an .md |
+
 
