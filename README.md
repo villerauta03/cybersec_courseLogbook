@@ -30,4 +30,4 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 1.4.2025 | 5 | PortSwigger Authentication Labs | Completing and Finishing the "Username enumeration via subtly different responses"-lab, trying to run "2FA Broken Logic"- and "Username enumeration via response timing"-labs but failing for at least 3 hours because of limitations on Burp Community Edition, finally completing and finishing "Password brute-force via password change"-lab |
 
 
-
+**Hours worked in total:** 44.5 
