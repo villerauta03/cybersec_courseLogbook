@@ -28,6 +28,7 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 22.3.2025 | 2 | Booking System Phase 2 Part 2 | Running non-dictionary (Bruteforce) attack with Hydra, testing out bruteforcing with Burp, writing and finishing the assignment |
 | 30.3.2025 | 3 | Booking System Phase 3 | Running authorization tests with zaproxy and wfuzz, manual browser exploration of the application to identify authorization weakpoints, completing and documenting the assignment completion into an .md |
 | 1.4.2025 | 5 | PortSwigger Authentication Labs | Completing and Finishing the "Username enumeration via subtly different responses"-lab, trying to run "2FA Broken Logic"- and "Username enumeration via response timing"-labs but failing for at least 3 hours because of limitations on Burp Community Edition, finally completing and finishing "Password brute-force via password change"-lab |
+| 5.4.2025 | 3.5 | PortSwigger Access Control Labs & Booking System Phase 4 Preparation | Completing the PortSwigger Access Control labs: "Unprotected admin functionality with unpredictable URL", "User role controlled by request parameter", and "Referer-based access control", logging the process into portswigger_reflections.md. Additionally, creating the Booking System Phase 4 folder and basic outline testingReport.md file, and preparing the testing environment on the Kali Linux VM installation. | 
 
 
-**Hours worked in total:** 44.5 
+**Hours worked in total:** 48 
