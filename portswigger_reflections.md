@@ -95,3 +95,13 @@ if (isAdmin) {
   - At first, I thought it was as simple as going into the administrator panel with the provided `administrator` account details and running the Request inside of Burp Repeater, but that didn't complete the lab. You must be **logged in** as wiener:peter to complete the lab. Meaning the request had to orignate from the cookie of the "wiener"-user.
   - To solve this, I logged in as wiener:peter, went to `/admin/roles?username=carlos&action=upgrade`, opened the request in Burp Repeater and just added the Referer header to the end, this time with the right cookie. I was then able to solve the lab.
   - The most annoying part about this lab was the inclusion of the correct cookie being required because it took me a couple seconds to think up of the reason why it wasn't working. (I just didn't read the instructions completely before getting started so that's on me) 
+
+# Topic: JWT attacks
+To complete tasks in this topic you will need to install the "JWT Editor"-extension into Burp Suit from the built-in BApp Store.
+
+
+**1. JWT authentication bypass via unverified signature →**
+  - The main task of this lab is to delete the user `carlos` by accessing the `/admin` panel on an unauthorized session by modifying the unsecure JWT token on the website. There is a provided account with the credentials `wiener:peter`.
+  - I was able to understand what to do after some browsing of the JWT Topic material. After installing the JWT Editor from BApp, I attempted to decode the Base64 selected value from the GET / request that was sent after I logged in as `wiener:peter`. It was a bit annoying at first because I selected the entire token and I thought it wasn't working, but I realized pretty quickly I was supposed to just select one segment of the token up to the next `.`.
+  - After getting the token and inputting it into repeater, I changed the GET request to redirect me to `/admin`, and then changed the `sub:` field in the JWT token to say "administrator" instead of "wiener", which got me access to the page. From there I just copied the path to delete the `carlos` user, which was: `/admin/delete?username=carlos`, and sent the POST request to the site with the "administrator" username still in the sub: field.
+  - The lab was new and I was glad to learn new material. JWT tokens are also useful because I will be using them in another course for my web development project. The most difficult part was to edit the token in Burp because the material didn't say it couldn't decode the entire token in one go. 
