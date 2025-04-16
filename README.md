@@ -31,5 +31,7 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 5.4.2025 | 3.5 | PortSwigger Access Control Labs & Booking System Phase 4 Preparation | Completing the PortSwigger Access Control labs: "Unprotected admin functionality with unpredictable URL", "User role controlled by request parameter", and "Referer-based access control", logging the process into portswigger_reflections.md. Additionally, creating the Booking System Phase 4 folder and basic outline testingReport.md file, and preparing the testing environment on the Kali Linux VM installation. | 
 | 6.4.2025 | 1 | PortSwigger JWT attacks Labs | Reading up on the "JWT attacks"-topic material and completing the "JWT authentication bypass via unverified signature"-lab. Updated into portswigger_reflections.md |
 | 8.4.2025 | 2.5 | PortSwigger JWT attacks Labs | Figuring out JWT signatures and completing the "JWT authentication bypass via flawed signature verification" and "JWT authentication bypass via weak signing key" labs, struggling with hashcat command structure and implementing correct secret key encoding for the second lab took some time. |
+| 14.4.2025 | 1 | Trying to start Phase 4 of the Booking System project, mainly updating kali linux components |
+| 15.4.2025 | 1 | Collecting some of the new data for the authorization table in Phase 4, not much since internet went out |
 
-**Hours worked in total:** 51.5 
+**Hours worked in total:** 53.5 
