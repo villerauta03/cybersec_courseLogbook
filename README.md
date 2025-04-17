@@ -33,7 +33,7 @@ Note: PortSwigger labs reflections are updated into " portswigger_reflections.md
 | 8.4.2025 | 2.5 | PortSwigger JWT attacks Labs | Figuring out JWT signatures and completing the "JWT authentication bypass via flawed signature verification" and "JWT authentication bypass via weak signing key" labs, struggling with hashcat command structure and implementing correct secret key encoding for the second lab took some time. |
 | 14.4.2025 | 1 | Booking System Phase 4 Preparation | Trying to start Phase 4 of the Booking System project, mainly updating kali linux components |
 | 15.4.2025 | 1 | Booking System Phase 4 | Collecting some of the new data for the authorization table in Phase 4, not much since internet went out |
-| 16.4.2025 | 1 | Booking System Phase 4 | Further exploration and filling in of the authorization table for the given application. |
-| 17.4.2025 | 3 | Booking System Phase 4 | Further exploration and filling in of the authorization table for the given application, beginning the filling in of the GDPR tables, running zaproxy on the application to discover hidden paths. |
+| 16.4.2025 | 4 | Booking System Phase 4 | Further exploration and filling in of the authorization table for the given application, beginning the filling in of the GDPR tables, running zaproxy on the application to discover hidden paths. |
+| 17.4.2025 | 3 | Booking System Phase 4 | Finishing of the GDRP Tables, creating and writing the Terms of Service, Privacy Policy, and Cookie Policy of the Booking System application. Finish of Phase 4. |
 
-**Hours worked in total:** 57.5 
+**Hours worked in total:** 60.5 
